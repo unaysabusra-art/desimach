@@ -1,0 +1,10 @@
+{
+  "name": "haorer-deshi-mach",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netlify Functions and Supabase backend for Haworer Deshi Mach",
+  "engines": { "node": ">=20" },
+  "scripts": { "dev": "netlify dev", "deploy:check": "netlify build" },
+  "dependencies": { "@supabase/supabase-js": "^2.57.0", "resend": "^6.0.0" },
+  "devDependencies": { "netlify-cli": "^23.0.0" }
+}
